@@ -22,7 +22,7 @@ let ages = [30, 26, 27];
 let [john, mary, joe] = ages
 console.log(john, mary, joe);
 
-// Destructuring objects
+// // Destructuring objects
 let jobs = {
     mike: "designer",
     jill: "developer",
@@ -40,8 +40,8 @@ console.log(johnNative, johnSecondary, johnThird);
 let [, , , maryNative, marySecondary] = languages;
 console.log(maryNative, marySecondary);
 
-// Using Object
-// Destructure Object
+// // Using Object
+// // Destructure Object
 let languages2 = {
     firstLanguage: "english",
     secondLanguage: "french",
@@ -54,7 +54,7 @@ console.log(firstLanguage, fourthLanguage);
 
 
 
-// Using rest parameter syntax
+// // Using rest parameter syntax
 
 let fruits = ["apple", "orange", "banana", "peach", "cherry"];
 let [favorite, secondFavorite, ...others] = fruits;
@@ -74,5 +74,6 @@ let {brian, sarah, ...rest} = favoriteFoods
 console.log(brian);
 console.log(sarah);
 console.log(rest);
+
 
 
